@@ -50,7 +50,7 @@ function render_buttons() {
 
         let element = buttons[i];
         const id = crypto.randomUUID();  // str
-        element.innerHTML = `<img src=${COPY_ICON} id="${id}-img" style="width: 15px;">`
+        element.innerHTML = `<img src=${COPY_ICON} id="${id}-img">`
         element.setAttribute("id", `${id}-button`)
         element.setAttribute("onclick", `copy_button_handler('${id}')`)
 
