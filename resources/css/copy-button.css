@@ -1,0 +1,11 @@
+.copy-button {
+    height: 1.5em;
+    width: auto;
+    padding: 0.1em;
+    margin-inline: 0.1em;
+}
+
+.copy-button img {
+    height: 100%;
+    width: auto;
+}
