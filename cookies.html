@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- boilerplate -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- site title -->
+    <title>webutils</title>
+
+    <!-- meta tags -->
+    <meta content="Do you agree with cookies?" name="description">
+    <meta content="cookies? 🍪🍪🍪" property="og:title">
+    <meta content="Do you agree with cookies?" property="og:description">
+    <meta content="webutils.vitapavlik.cz" property="og:site_name">
+    <!-- <meta content="https://xxxxx.xyz/xxxxx.jpg" property="og:image"> -->
+
+    <!-- style sheet -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <style>
+        .options {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: min(80vw, 600px);
+            position: absolute;
+            bottom: 0;
+            padding: 2em;
+        }
+
+        .option {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .option img {
+            width: 20vw;
+            z-index: 0;
+        }
+    </style>
+
+  </head>
+  <body>
+
+    <!-- script -->
+    <script src="/resources/js/cookies.js" defer></script>
+
+    <!-- https://freesvg.org/1548612994 -->
+    <img src="/resources/img/cookie.svg" id="cookie-img">
+
+    <h1>Do you agree with cookies?</h1>
+
+    <div class="options">
+
+        <div class="option">
+
+            <!-- https://freesvg.org/trash-can-vector-illustration -->
+            <img src="/resources/img/trash-can.svg" id="trash-can-img">
+
+            <b>no</b>
+
+        </div>
+
+        <div class="option">
+
+            <!-- based on https://www.mycutegraphics.com/graphics/monster/monster-eating-cookies.html -->
+            <img src="/resources/img/green-round-creature-expecting-food.webp" id="green-round-creature-img">
+
+            <b>yes</b>
+
+        </div>
+    </div>
+
+  </body>
+</html>
